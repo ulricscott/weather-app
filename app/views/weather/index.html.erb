@@ -1,0 +1,8 @@
+<%= form_tag '/weather', :method => "get" do |form| %>
+  Weather App
+  </br>
+  <%= label_tag(:address, "Address:") %>
+  <%= text_field_tag(:address) %>
+  </br>
+  <%= submit_tag("Submit") %>
+<% end %>
